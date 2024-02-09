@@ -1,4 +1,7 @@
 
+https://github.com/atabek54/register-app/assets/77456430/97a93af5-ac81-466d-bf83-e770c3c53ddc
+
+
 <img width="348" alt="form1 i" src="https://github.com/atabek54/register-app/assets/77456430/28c866d2-b6da-4328-871b-8d72891155d6">
 <img width="354" alt="Form2" src="https://github.com/atabek54/register-app/assets/77456430/379e4427-6594-4ebf-9251-c184a0ac41ae">
 <img width="355" alt="form3" src="https://github.com/atabek54/register-app/assets/77456430/90290549-52c6-4652-85aa-b11b0f919c98">
