@@ -101,6 +101,11 @@ const CustomModal: React.FC<ModalProps> = ({visible, onClose}) => {
     setOpen(true);
   };
 
+  const handleDeleteProject = (index: number) => {
+    const updatedProjects = [...projects];
+    updatedProjects.splice(index, 1); // Seçilen projeyi kaldır
+    setProjects(updatedProjects);
+  };
   const work_type_datas = [
     {key: '1', value: 'Öğrenci'},
     {key: '2', value: 'Çalışan'},
@@ -918,14 +923,34 @@ const CustomModal: React.FC<ModalProps> = ({visible, onClose}) => {
                         marginBottom: 25,
                         borderBottomWidth: 1,
                         borderColor: 'gray',
+                        display: 'flex',
+                        flexDirection: 'row',
+                        justifyContent: 'space-between',
                       }}>
-                      <Text style={{fontWeight: 'bold', color: 'white'}}>
-                        {project.name}
-                      </Text>
-                      <Text
-                        style={{marginTop: 7, color: 'gray', marginBottom: 7}}>
-                        {project.description}
-                      </Text>
+                      <View>
+                        <Text style={{fontWeight: 'bold', color: 'white'}}>
+                          {project.name}
+                        </Text>
+                        <Text
+                          style={{
+                            marginTop: 7,
+                            color: 'gray',
+                            marginBottom: 7,
+                          }}>
+                          {project.description}
+                        </Text>
+                      </View>
+                      <View
+                        style={{
+                          backgroundColor: 'transparent',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                        }}>
+                        <TouchableOpacity
+                          onPress={() => handleDeleteProject(index)}>
+                          <Text style={{color: 'red', fontSize: 19}}>Sil</Text>
+                        </TouchableOpacity>
+                      </View>
                     </View>
                   ))}
                 </View>
