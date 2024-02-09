@@ -1,3 +1,14 @@
+
+<img width="348" alt="form1 i" src="https://github.com/atabek54/register-app/assets/77456430/28c866d2-b6da-4328-871b-8d72891155d6">
+<img width="354" alt="Form2" src="https://github.com/atabek54/register-app/assets/77456430/379e4427-6594-4ebf-9251-c184a0ac41ae">
+<img width="355" alt="form3" src="https://github.com/atabek54/register-app/assets/77456430/90290549-52c6-4652-85aa-b11b0f919c98">
+<img width="353" alt="form4" src="https://github.com/atabek54/register-app/assets/77456430/e048a2c5-b9aa-4249-b64b-80d2fdef24f0">
+<img width="353" alt="FORM 5" src="https://github.com/atabek54/register-app/assets/77456430/68adf563-57cf-4cb4-b80b-af09d76ba6e9">
+<img width="353" alt="profil" src="https://github.com/atabek54/register-app/assets/77456430/6b3d1882-6c25-41ce-9f09-c90b022c7182">
+<img width="353" alt="dashboard" src="https://github.com/atabek54/register-app/assets/77456430/e01dc053-a5b4-4fd0-8e65-53c1c0709a4e">
+<img width="359" alt="Drawer" src="https://github.com/atabek54/register-app/assets/77456430/e9930a8b-42cd-4a45-96ab-8223c5bfa770">
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
